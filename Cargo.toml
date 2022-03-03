@@ -1,0 +1,11 @@
+[package]
+name = "libtorrent"
+version = "0.1.0"
+authors = ["Nicolas Chevalier <nicolas.chevalier@enicom.org>"]
+description = "Rust API for libtorrent"
+license = "MIT"
+keywords = ["torrent", "magnet"]
+edition = "2018"
+
+[dependencies.libtorrent-sys]
+version = "0.1.0"
