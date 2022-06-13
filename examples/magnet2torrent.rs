@@ -27,7 +27,7 @@ use std::fs::File;
 fn main() {
     let uri = std::env::args().nth(1).expect("no pattern given");
     let mut session = lt_create_session();
-    let mut torrent_param = lt_parse_magnet_uri(&uri);
+    let mut torrent_param = lt_parse_magnet_uri(&uri, ".");
     let hdl = lt_session_add_torrent(session.pin_mut(), torrent_param.pin_mut());
 
     loop {

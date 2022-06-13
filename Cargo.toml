@@ -1,6 +1,6 @@
 [package]
 name = "libtorrent"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Nicolas Chevalier <nicolas.chevalier@enicom.org>"]
 description = "Rust API for libtorrent"
 license = "MIT"
@@ -9,4 +9,4 @@ edition = "2018"
 repository = "https://github.com/shawone/libtorrent-rs"
 
 [dependencies.libtorrent-sys]
-version = "0.1.0"
+version = "1.0.0"
